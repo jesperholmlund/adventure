@@ -1,0 +1,15 @@
+nav {
+  display: flex;
+  justify-content: center;
+  background: #223843;
+  ul {
+    color: #fff;
+    margin-top: 150px;
+    display: flex;
+    flex-direction: row;
+    li {
+      padding: 10px;
+      font-size: 23px;
+    }
+  }
+}

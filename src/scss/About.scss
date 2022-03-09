@@ -1,0 +1,20 @@
+#about {
+  padding: 22px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  #aboutImage {
+    width: 200px;
+    height: 300px;
+    background: #d77a61;
+  }
+  #aboutInfo {
+    background: #dbd3d8;
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 300px;
+    height: fit-content;
+    padding: 22px;
+    font-size: 23px;
+  }
+}
