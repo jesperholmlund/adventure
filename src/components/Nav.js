@@ -5,7 +5,9 @@ const Nav = () => {
   return (
     <nav>
       <ul>
-        <li>Projektlista</li>
+        <li>
+          <a href="">Projektlista</a>
+        </li>
         <li>Om mig</li>
         <li>Kontakt</li>
       </ul>

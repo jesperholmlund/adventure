@@ -1,4 +1,4 @@
-#about {
+#contact {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -6,16 +6,15 @@
   width: 100%;
   padding: 60px;
   //background-color: #e58a71;
-  #about-header {
-    //background: #d8b4a0;
-    background-color: #dddcdd;
+  #contact-header {
+    background: #dddcdd;
     color: #fff;
     padding: 35px;
     display: flex;
     align-items: center;
     border-radius: 11px;
   }
-  #about-body {
+  #contact-body {
     font-family: Arial, Helvetica, sans-serif;
     height: fit-content;
     padding: 22px;
@@ -24,9 +23,9 @@
 }
 
 @media screen and (max-width: 800px) {
-  #about {
+  #contact {
     flex-direction: column;
-    #about-header {
+    #contact-header {
       justify-content: center;
     }
   }

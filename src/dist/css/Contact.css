@@ -1,4 +1,4 @@
-#about {
+#contact {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -14,8 +14,8 @@
   padding: 60px;
 }
 
-#about #about-header {
-  background-color: #dddcdd;
+#contact #contact-header {
+  background: #dddcdd;
   color: #fff;
   padding: 35px;
   display: -webkit-box;
@@ -27,7 +27,7 @@
   border-radius: 11px;
 }
 
-#about #about-body {
+#contact #contact-body {
   font-family: Arial, Helvetica, sans-serif;
   height: -webkit-fit-content;
   height: -moz-fit-content;
@@ -37,16 +37,16 @@
 }
 
 @media screen and (max-width: 800px) {
-  #about {
+  #contact {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
   }
-  #about #about-header {
+  #contact #contact-header {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
   }
 }
-/*# sourceMappingURL=About.css.map */
+/*# sourceMappingURL=Contact.css.map */

@@ -5,7 +5,8 @@ nav {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  background: #223843;
+  margin: auto;
+  background: #d77a61;
 }
 
 nav ul {
@@ -22,6 +23,6 @@ nav ul {
 
 nav ul li {
   padding: 10px;
-  font-size: 23px;
+  font-size: 32px;
 }
 /*# sourceMappingURL=Nav.css.map */

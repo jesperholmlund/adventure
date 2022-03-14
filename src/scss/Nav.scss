@@ -1,7 +1,9 @@
 nav {
   display: flex;
   justify-content: center;
-  background: #223843;
+  // background: #d77a61;
+  margin: auto;
+  background: #d77a61;
   ul {
     color: #fff;
     margin-top: 150px;
@@ -9,7 +11,7 @@ nav {
     flex-direction: row;
     li {
       padding: 10px;
-      font-size: 23px;
+      font-size: 32px;
     }
   }
 }
