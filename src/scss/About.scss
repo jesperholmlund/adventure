@@ -26,6 +26,8 @@
 @media screen and (max-width: 800px) {
   #about {
     flex-direction: column;
+    padding-left: 10px;
+    padding-right: 10px;
     #about-header {
       justify-content: center;
     }

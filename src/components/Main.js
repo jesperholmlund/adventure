@@ -8,20 +8,16 @@ import { motion } from "framer-motion";
 const Main = () => {
   return (
     <motion.main
-      initial={{ opacity: 0, scale: 0 }}
-      animate={{ opacity: 1, scale: 1 }}
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
       transition={{
-        delay: 0.5,
+        delay: 0.1,
         duration: 2,
-        type: "spring",
-        bounce: 0.6,
-        damping: 7,
-        velocity: 2,
       }}
     >
       <About></About>
-      <Projects></Projects>
       <Contact></Contact>
+      <Projects></Projects>
     </motion.main>
   );
 };
