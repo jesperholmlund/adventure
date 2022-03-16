@@ -13,13 +13,13 @@ const Project = (props) => {
             enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
             ut aliquip ex ea commodo consequat.
           </p>
-          <a className="btn btn-outline-dark btn-lg" href="">
+          <a className="btn btn-outline-dark btn-lg" href="/">
             gitHub
           </a>
           <a
             style={{ marginLeft: "10px" }}
             className="btn btn-primary btn-lg"
-            href=""
+            href="/"
           >
             Demo
           </a>

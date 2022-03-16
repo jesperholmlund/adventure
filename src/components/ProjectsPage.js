@@ -32,8 +32,13 @@ const ProjectsPage = () => {
         duration: 2,
       }}
     >
-      {projectList.map((p) => (
-        <Project name={p.name} gitHub={p.gitHub} demo={p.demo}></Project>
+      {projectList.map((p, i) => (
+        <Project
+          key={i}
+          name={p.name}
+          gitHub={p.gitHub}
+          demo={p.demo}
+        ></Project>
       ))}
     </motion.div>
   );

@@ -12,8 +12,8 @@ const About = () => {
           <FcBusinessman style={{ fontSize: "200px" }}></FcBusinessman>
         </div>
         <div className="card-body" id="about-body">
-          <h1 class="card-title">About</h1>
-          <p class="card-text">
+          <h1 className="card-title">About</h1>
+          <p className="card-text">
             {" "}
             Om mig Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
             do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
@@ -21,7 +21,7 @@ const About = () => {
             ut aliquip ex ea commodo consequat.
           </p>
           <div>
-            <a href="about" class="btn btn-outline-dark btn-lg">
+            <a href="/about" className="btn btn-outline-dark btn-lg">
               Om mig
             </a>
           </div>

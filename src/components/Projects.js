@@ -10,8 +10,8 @@ const Projects = () => {
           <FcBriefcase style={{ fontSize: "200px" }}></FcBriefcase>
         </div>
         <div className="card-body" id="projects-body">
-          <h1 class="card-title">Portfolio</h1>
-          <p class="card-text">
+          <h1 className="card-title">Portfolio</h1>
+          <p className="card-text">
             {" "}
             Om mig Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
             do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
@@ -19,7 +19,7 @@ const Projects = () => {
             ut aliquip ex ea commodo consequat.
           </p>
           <div>
-            <a href="/projects" class="btn btn-outline-dark btn-lg">
+            <a href="/projects" className="btn btn-outline-dark btn-lg">
               Portfolio
             </a>
           </div>
