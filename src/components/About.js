@@ -1,8 +1,7 @@
 import React from "react";
 import "../dist/css/About.css";
 import { FcBusinessman } from "react-icons/fc";
-import { FcBriefcase } from "react-icons/fc";
-import { motion } from "framer-motion";
+import { NavLink } from "react-router-dom";
 
 const About = () => {
   return (
@@ -21,9 +20,9 @@ const About = () => {
             ut aliquip ex ea commodo consequat.
           </p>
           <div>
-            <a href="/about" className="btn btn-outline-dark btn-lg">
+            <NavLink to="/about" className="btn btn-outline-dark btn-lg">
               Om mig
-            </a>
+            </NavLink>
           </div>
         </div>
       </div>

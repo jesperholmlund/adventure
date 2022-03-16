@@ -1,6 +1,7 @@
 import React from "react";
 import "../dist/css/Contact.css";
 import { FcCustomerSupport } from "react-icons/fc";
+import { NavLink } from "react-router-dom";
 
 const Contact = () => {
   return (
@@ -19,9 +20,9 @@ const Contact = () => {
             ut aliquip ex ea commodo consequat.
           </p>
           <div>
-            <a href="/contact" className="btn btn-danger btn-lg">
+            <NavLink to="/contact" className="btn btn-danger btn-lg">
               Kontakta mig
-            </a>
+            </NavLink>
           </div>
         </div>
       </div>

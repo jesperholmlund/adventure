@@ -1,6 +1,7 @@
 import React from "react";
 import "../dist/css/Projects.css";
 import { FcBriefcase } from "react-icons/fc";
+import { NavLink } from "react-router-dom";
 
 const Projects = () => {
   return (
@@ -19,9 +20,9 @@ const Projects = () => {
             ut aliquip ex ea commodo consequat.
           </p>
           <div>
-            <a href="/projects" className="btn btn-outline-dark btn-lg">
+            <NavLink to="/projects" className="btn btn-outline-dark btn-lg">
               Portfolio
-            </a>
+            </NavLink>
           </div>
         </div>
       </div>
