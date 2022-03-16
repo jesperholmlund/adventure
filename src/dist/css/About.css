@@ -12,10 +12,11 @@
   font-size: 23px;
   width: 100%;
   padding: 60px;
+  background-color: #6495ed;
 }
 
 #about #about-header {
-  background-color: #dddcdd;
+  background-color: #fff;
   color: #fff;
   padding: 35px;
   display: -webkit-box;

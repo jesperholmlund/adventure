@@ -9,10 +9,10 @@ const About = () => {
     <div className="card" id="about">
       <div className="card-container">
         <div className="card-header" id="about-header">
-          <FcBusinessman style={{ fontSize: "95px" }}></FcBusinessman>
+          <FcBusinessman style={{ fontSize: "200px" }}></FcBusinessman>
         </div>
         <div className="card-body" id="about-body">
-          <h2 class="card-title">About</h2>
+          <h1 class="card-title">About</h1>
           <p class="card-text">
             {" "}
             Om mig Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
@@ -21,7 +21,7 @@ const About = () => {
             ut aliquip ex ea commodo consequat.
           </p>
           <div>
-            <a href="#" class="btn btn-secondary">
+            <a href="about" class="btn btn-outline-dark btn-lg">
               Om mig
             </a>
           </div>

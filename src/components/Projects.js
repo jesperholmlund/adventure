@@ -7,10 +7,10 @@ const Projects = () => {
     <div className="card" id="projects">
       <div className="card-container">
         <div className="card-header" id="projects-header">
-          <FcBriefcase style={{ fontSize: "95px" }}></FcBriefcase>
+          <FcBriefcase style={{ fontSize: "200px" }}></FcBriefcase>
         </div>
         <div className="card-body" id="projects-body">
-          <h2 class="card-title">Portfolio</h2>
+          <h1 class="card-title">Portfolio</h1>
           <p class="card-text">
             {" "}
             Om mig Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
@@ -19,8 +19,8 @@ const Projects = () => {
             ut aliquip ex ea commodo consequat.
           </p>
           <div>
-            <a href="#" class="btn btn-secondary">
-              Om mig
+            <a href="/projects" class="btn btn-outline-dark btn-lg">
+              Portfolio
             </a>
           </div>
         </div>

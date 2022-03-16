@@ -1,0 +1,31 @@
+#aboutPage {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  width: 1024px;
+  margin: auto;
+  padding-top: 55px;
+  padding-bottom: 55px;
+  * {
+  }
+}
+
+.aboutPage {
+  ul {
+    font-size: 95px;
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  #aboutPage {
+    flex-direction: column;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 100%;
+  }
+  .aboutPage {
+    width: 100%;
+  }
+}

@@ -138,3 +138,7 @@ body {
   align-items: center;
   gap: 22px;
 }
+
+.card {
+  border: none !important;
+}

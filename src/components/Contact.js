@@ -6,11 +6,11 @@ const Contact = () => {
   return (
     <div className="card" id="contact">
       <div className="card-container" style={{ flexDirection: "row-reverse" }}>
-        <div className="card-header" id="contact-header">
-          <FcCustomerSupport style={{ fontSize: "95px" }}></FcCustomerSupport>
+        <div className="" id="contact-header">
+          <FcCustomerSupport style={{ fontSize: "200px" }}></FcCustomerSupport>
         </div>
         <div className="card-body" id="contact-body">
-          <h2 class="card-title">Contact</h2>
+          <h1 class="card-title">Contact</h1>
           <p class="card-text">
             {" "}
             Om mig Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
@@ -19,7 +19,7 @@ const Contact = () => {
             ut aliquip ex ea commodo consequat.
           </p>
           <div>
-            <a href="#" class="btn btn-danger">
+            <a href="#" class="btn btn-danger btn-lg">
               Kontakta mig
             </a>
           </div>

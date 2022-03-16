@@ -6,10 +6,17 @@ const Nav = () => {
     <nav>
       <ul>
         <li>
-          <a href="">Projektlista</a>
+          <a href="/">Hem</a>
         </li>
-        <li>Om mig</li>
-        <li>Kontakt</li>
+        <li>
+          <a href="/projects">Projektlista</a>
+        </li>
+        <li>
+          <a href="/contact">Kontakt</a>
+        </li>
+        <li>
+          <a href="/about">Om mig</a>
+        </li>
       </ul>
     </nav>
   );
