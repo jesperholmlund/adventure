@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { FaReact } from "react-icons/fa";
 import { FcReading } from "react-icons/fc";
 import { FcBusinessman } from "react-icons/fc";
@@ -26,7 +26,7 @@ const AboutPage = () => {
           className="card-body"
           style={{
             fontSize: "23px",
-            width: "80%",
+            maxWidth: "800px",
             margin: "auto",
           }}
         >
@@ -44,7 +44,7 @@ const AboutPage = () => {
         </ul>
         <div
           className="card-body"
-          style={{ fontSize: "23px", width: "80%", margin: "auto" }}
+          style={{ fontSize: "23px", maxWidth: "800px", margin: "auto" }}
         >
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
@@ -60,7 +60,7 @@ const AboutPage = () => {
         </ul>
         <div
           className="card-body"
-          style={{ fontSize: "23px", width: "80%", margin: "auto" }}
+          style={{ fontSize: "23px", maxWidth: "800px", margin: "auto" }}
         >
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad

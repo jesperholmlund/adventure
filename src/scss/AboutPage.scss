@@ -4,8 +4,8 @@
   gap: 25px;
   width: 1024px;
   margin: auto;
-  padding-top: 55px;
-  padding-bottom: 55px;
+  //padding-top: 55px;
+  padding-bottom: 25px;
   * {
   }
 }
@@ -15,6 +15,7 @@
     font-size: 95px;
     display: flex;
     justify-content: center;
+    padding-left: 0 !important;
   }
 }
 

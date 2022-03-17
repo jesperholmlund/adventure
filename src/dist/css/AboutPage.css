@@ -9,8 +9,7 @@
   gap: 25px;
   width: 1024px;
   margin: auto;
-  padding-top: 55px;
-  padding-bottom: 55px;
+  padding-bottom: 25px;
 }
 
 .aboutPage ul {
@@ -21,6 +20,7 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  padding-left: 0 !important;
 }
 
 @media screen and (max-width: 1024px) {

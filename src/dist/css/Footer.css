@@ -1,5 +1,21 @@
 footer {
-  height: 200px;
+  background-color: #ed7b64;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 32px;
+}
+
+footer .card {
+  width: 150px;
+  text-align: center;
   background-color: #ed7b64;
 }
 /*# sourceMappingURL=Footer.css.map */

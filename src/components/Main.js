@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import "../dist/css/Main.css";
 import About from "./About";
 import Projects from "./Projects";
@@ -6,6 +6,7 @@ import Contact from "./Contact";
 import { motion } from "framer-motion";
 
 const Main = () => {
+  const [btn, setBtn] = useState(true);
   return (
     <motion.main
       initial={{ opacity: 0 }}

@@ -9,6 +9,7 @@ import Projects from "./components/Projects";
 import ProjectsPage from "./components/ProjectsPage";
 import Contact from "./components/Contact";
 import ContactPage from "./components/ContactPage";
+import HomeButton from "./components/HomeButton";
 import { Routes, Route } from "react-router-dom";
 
 function App() {
@@ -38,7 +39,6 @@ function App() {
           path="/contact"
           element={
             <>
-              <Contact></Contact>
               <ContactPage></ContactPage>
             </>
           }
