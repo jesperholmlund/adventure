@@ -32,6 +32,12 @@ const ProjectsPage = () => {
         duration: 2,
       }}
     >
+      {" "}
+      <div className="card">
+        <h1 className="card-title" style={{ margin: "auto" }}>
+          Project list
+        </h1>
+      </div>
       {projectList.map((p, i) => (
         <Project
           key={i}

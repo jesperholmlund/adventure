@@ -16,6 +16,11 @@ const AboutPage = () => {
         duration: 2,
       }}
     >
+      <div className="card">
+        <h1 className="card-title" style={{ margin: "auto" }}>
+          About
+        </h1>
+      </div>
       <div id="" className="card aboutPage">
         <ul>
           <li>

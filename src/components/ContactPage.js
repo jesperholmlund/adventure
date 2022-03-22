@@ -14,6 +14,12 @@ const ContactPage = () => {
           duration: 2,
         }}
       >
+        {" "}
+        <div className="card">
+          <h1 className="card-title" style={{ margin: "auto" }}>
+            Contact
+          </h1>
+        </div>
         <div className="form-row">
           <div className="form-group">
             <label htmlFor="inputEmail4">Email</label>
