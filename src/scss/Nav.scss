@@ -2,7 +2,7 @@ nav {
   display: flex;
   justify-content: right;
   //background: #d77a61;
-  background-color: #ed7b64;
+  //background-color: #ed7b64;
   margin: auto;
   ul {
     color: #000;
@@ -11,6 +11,9 @@ nav {
     margin-bottom: 0 !important;
     li {
       padding: 10px;
+      .btn:focus {
+        box-shadow: none;
+      }
       a {
         text-decoration: none;
         color: black;

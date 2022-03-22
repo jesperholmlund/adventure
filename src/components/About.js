@@ -7,7 +7,7 @@ const About = (props) => {
   return (
     <div className="card" id="about">
       <div className="card-container">
-        <div className="card-header" id="about-header">
+        <div className="" id="about-header">
           <FcBusinessman style={{ fontSize: "200px" }}></FcBusinessman>
         </div>
         <div className="card-body" id="about-body">

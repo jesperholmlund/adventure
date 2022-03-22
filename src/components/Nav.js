@@ -7,16 +7,44 @@ const Nav = () => {
     <nav>
       <ul>
         <li>
-          <NavLink to="/">Hem</NavLink>
+          <NavLink
+            to="/"
+            className={({ isActive }) =>
+              "btn " + (isActive ? "border-secondary" : " ")
+            }
+          >
+            Hem
+          </NavLink>
         </li>
         <li>
-          <NavLink to="/projects">Projektlista</NavLink>
+          <NavLink
+            to="/projects"
+            className={({ isActive }) =>
+              "btn " + (isActive ? "border-secondary" : " ")
+            }
+          >
+            Projektlista
+          </NavLink>
         </li>
         <li>
-          <NavLink to="/contact">Kontakt</NavLink>
+          <NavLink
+            to="/contact"
+            className={({ isActive }) =>
+              "btn " + (isActive ? "border-secondary" : " ")
+            }
+          >
+            Kontakt
+          </NavLink>
         </li>
         <li>
-          <NavLink to="/about">Om mig</NavLink>
+          <NavLink
+            to="/about"
+            className={({ isActive }) =>
+              "btn " + (isActive ? "border-secondary" : " ")
+            }
+          >
+            Om mig
+          </NavLink>
         </li>
       </ul>
     </nav>

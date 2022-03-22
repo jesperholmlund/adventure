@@ -5,7 +5,6 @@ nav {
   -webkit-box-pack: right;
       -ms-flex-pack: right;
           justify-content: right;
-  background-color: #ed7b64;
   margin: auto;
 }
 
@@ -23,6 +22,11 @@ nav ul {
 
 nav ul li {
   padding: 10px;
+}
+
+nav ul li .btn:focus {
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 
 nav ul li a {

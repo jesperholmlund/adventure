@@ -10,6 +10,7 @@ import ProjectsPage from "./components/ProjectsPage";
 import Contact from "./components/Contact";
 import ContactPage from "./components/ContactPage";
 import HomeButton from "./components/HomeButton";
+import Board from "./components/Board/Board";
 import { Routes, Route } from "react-router-dom";
 
 function App() {
@@ -21,7 +22,6 @@ function App() {
           path="/about"
           element={
             <>
-              <About></About>
               <AboutPage></AboutPage>
             </>
           }
@@ -30,7 +30,6 @@ function App() {
           path="/projects"
           element={
             <>
-              <Projects></Projects>
               <ProjectsPage></ProjectsPage>
             </>
           }
@@ -44,6 +43,7 @@ function App() {
           }
         />
         <Route path="/" element={<Main></Main>}></Route>
+        <Route path="/board" element={<Board></Board>}></Route>
       </Routes>
       <Footer></Footer>
     </div>

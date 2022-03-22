@@ -7,7 +7,7 @@ const Projects = () => {
   return (
     <div className="card" id="projects">
       <div className="card-container">
-        <div className="card-header" id="projects-header">
+        <div className="" id="projects-header">
           <FcBriefcase style={{ fontSize: "200px" }}></FcBriefcase>
         </div>
         <div className="card-body" id="projects-body">

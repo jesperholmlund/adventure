@@ -1,5 +1,4 @@
 footer {
-  background-color: #ed7b64;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -16,6 +15,5 @@ footer {
 footer .card {
   width: 150px;
   text-align: center;
-  background-color: #ed7b64;
 }
 /*# sourceMappingURL=Footer.css.map */

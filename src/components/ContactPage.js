@@ -5,7 +5,6 @@ import Contact from "./Contact";
 const ContactPage = () => {
   return (
     <>
-      <Contact></Contact>
       <motion.form
         style={{ maxWidth: "800px", padding: "16px", margin: "auto" }}
         initial={{ y: -200, opacity: 0 }}
@@ -37,7 +36,7 @@ const ContactPage = () => {
         </div>
         <div className="form-row">
           <div className="form-group">
-            <label htmlFor="inputMessage">City</label>
+            <label htmlFor="inputMessage">Message</label>
             <textarea
               placeholder="Message"
               class="form-control"
