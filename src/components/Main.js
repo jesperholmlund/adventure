@@ -1,12 +1,14 @@
-import React, { useState } from "react";
 import "../dist/css/Main.css";
 import About from "./About";
 import Projects from "./Projects";
 import Contact from "./Contact";
 import { motion } from "framer-motion";
+import { useEffect } from "react";
 
 const Main = () => {
-  const [btn, setBtn] = useState(true);
+  useEffect(() => {
+    document.title = "Hem";
+  }, []);
   return (
     <motion.main
       initial={{ opacity: 0 }}

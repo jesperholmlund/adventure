@@ -11,13 +11,12 @@ const Contact = () => {
           <FcCustomerSupport style={{ fontSize: "200px" }}></FcCustomerSupport>
         </div>
         <div className="card-body" id="contact-body">
-          <h1 className="card-title">Contact</h1>
+          <h1 className="card-title">Kontakt</h1>
           <p className="card-text">
             {" "}
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat.
+            Vill du komma i kontakt med mig? Du kan maila till
+            jesper@holmlunds.design eller trycka på knappen nedan och komma till
+            ett formulär.
           </p>
           <div>
             <NavLink to="/contact" className="btn btn-danger btn-lg">

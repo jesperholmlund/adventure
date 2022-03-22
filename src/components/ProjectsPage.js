@@ -2,8 +2,12 @@ import React from "react";
 import Project from "./Project";
 import "../dist/css/ProjectPage.css";
 import { motion } from "framer-motion";
+import { useEffect } from "react";
 
 const ProjectsPage = () => {
+  useEffect(() => {
+    document.title = "Projektlista";
+  }, []);
   const projectList = [
     {
       name: "Kindle parser",
@@ -35,7 +39,7 @@ const ProjectsPage = () => {
       {" "}
       <div className="card">
         <h1 className="card-title" style={{ margin: "auto" }}>
-          Project list
+          Projektlista
         </h1>
       </div>
       {projectList.map((p, i) => (

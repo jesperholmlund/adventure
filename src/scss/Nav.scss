@@ -1,9 +1,10 @@
 nav {
   display: flex;
-  justify-content: right;
+  justify-content: space-between;
   //background: #d77a61;
   //background-color: #ed7b64;
   margin: auto;
+  padding-left: 50px;
   ul {
     color: #000;
     display: flex;
@@ -22,9 +23,18 @@ nav {
   }
 }
 
+#logo {
+  background-image: url("/public/favicon.svg");
+  background-size: cover;
+  height: 100px;
+  width: 100px;
+}
+
 @media screen and (max-width: 800px) {
   nav {
     justify-content: left;
+    flex-direction: column;
+    padding-left: 0px;
     ul {
       flex-direction: column;
       width: 100%;

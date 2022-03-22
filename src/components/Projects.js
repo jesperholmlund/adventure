@@ -11,17 +11,15 @@ const Projects = () => {
           <FcBriefcase style={{ fontSize: "200px" }}></FcBriefcase>
         </div>
         <div className="card-body" id="projects-body">
-          <h1 className="card-title">Portfolio</h1>
+          <h1 className="card-title">Projektlista</h1>
           <p className="card-text">
             {" "}
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat.
+            Är du intresserad av att veta vad jag håller på med kan du gå till
+            min lista av projekt och bilda dig en uppfattning om min kunskap
           </p>
           <div>
             <NavLink to="/projects" className="btn btn-outline-dark btn-lg">
-              Portfolio
+              Projektlista
             </NavLink>
           </div>
         </div>

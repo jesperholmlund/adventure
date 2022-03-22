@@ -1,8 +1,11 @@
 import React from "react";
 import { motion } from "framer-motion";
-import Contact from "./Contact";
+import { useEffect } from "react";
 
 const ContactPage = () => {
+  useEffect(() => {
+    document.title = "Kontakt";
+  }, []);
   return (
     <>
       <motion.form
@@ -17,7 +20,7 @@ const ContactPage = () => {
         {" "}
         <div className="card">
           <h1 className="card-title" style={{ margin: "auto" }}>
-            Contact
+            Kontakt
           </h1>
         </div>
         <div className="form-row">
@@ -31,21 +34,21 @@ const ContactPage = () => {
             />
           </div>
           <div className="form-group">
-            <label htmlFor="inputTitle">Title</label>
+            <label htmlFor="inputTitle">Ämne</label>
             <input
               type="text"
               className="form-control"
               id="inputTitle"
-              placeholder="Title"
+              placeholder="Ämne"
             />
           </div>
         </div>
         <div className="form-row">
           <div className="form-group">
-            <label htmlFor="inputMessage">Message</label>
+            <label htmlFor="inputMessage">Meddelande</label>
             <textarea
-              placeholder="Message"
-              class="form-control"
+              placeholder="Meddelande"
+              className="form-control"
               id="inputMessage"
               rows="5"
             ></textarea>
@@ -53,7 +56,7 @@ const ContactPage = () => {
         </div>
         <br></br>
         <button type="submit" className="btn btn-primary">
-          Skicka
+          Kontakta
         </button>
       </motion.form>
     </>

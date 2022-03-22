@@ -3,7 +3,7 @@ import "../dist/css/About.css";
 import { FcBusinessman } from "react-icons/fc";
 import { NavLink } from "react-router-dom";
 
-const About = (props) => {
+const About = () => {
   return (
     <div className="card" id="about">
       <div className="card-container">
@@ -11,17 +11,16 @@ const About = (props) => {
           <FcBusinessman style={{ fontSize: "200px" }}></FcBusinessman>
         </div>
         <div className="card-body" id="about-body">
-          <h1 className="card-title">About</h1>
+          <h1 className="card-title">Om mig</h1>
           <p className="card-text">
             {" "}
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat.
+            Jag heter Jesper Holmlund och utbildar mig till front end-utvecklare
+            och jag vill i min karriär rikta in mig mot react och UI och
+            liknande.
           </p>
           <div>
             <NavLink to="/about" className="btn btn-outline-dark btn-lg">
-              Om mig
+              Mer om mig
             </NavLink>
           </div>
         </div>

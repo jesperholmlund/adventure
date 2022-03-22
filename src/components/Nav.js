@@ -5,6 +5,7 @@ import { NavLink } from "react-router-dom";
 const Nav = () => {
   return (
     <nav>
+      <div id="logo"></div>
       <ul>
         <li>
           <NavLink
