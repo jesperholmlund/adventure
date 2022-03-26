@@ -19,7 +19,7 @@ const Project = (props) => {
           <a
             style={{ marginLeft: "10px" }}
             className="btn btn-primary btn-lg"
-            href="/"
+            href={props.demo}
           >
             Demo
           </a>

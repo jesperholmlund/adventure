@@ -1,0 +1,117 @@
+#mainParser {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  max-width: 1024px;
+  margin: auto;
+  background-color: #232f3e;
+}
+
+#cardList {
+  max-width: 1024px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 30px;
+  padding: 30px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.cardParser {
+  border-radius: 5px !important;
+  font-size: 22px;
+  background-color: #f2f2f2;
+}
+
+.cardParser:hover {
+  opacity: 0.9;
+}
+
+.hide {
+  display: none;
+}
+
+input[type="file"] {
+  color: transparent;
+}
+
+#flashCards {
+  max-width: 800px;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 20px;
+}
+
+#mainTop {
+  max-width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 10px;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  background-color: #ff9900;
+  padding: 30px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+#mainTop input {
+  max-width: 400px;
+}
+
+#mainTop .csv-reader-input {
+  max-width: 400px;
+}
+
+mark {
+  background-color: yellow;
+  padding: 0.1em;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+@media screen and (max-width: 1024px) {
+  #mainParser {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  #mainParser #mainTop {
+    margin-top: 0px;
+  }
+  #mainParser #about-header {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+/*# sourceMappingURL=Parser.css.map */

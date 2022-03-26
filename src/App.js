@@ -6,8 +6,8 @@ import Main from "./components/Main";
 import AboutPage from "./components/AboutPage";
 import ProjectsPage from "./components/ProjectsPage";
 import ContactPage from "./components/ContactPage";
-import Board from "./components/Board/Board";
 import { Routes, Route } from "react-router-dom";
+import MainParser from "./components/parser/MainParser";
 
 function App() {
   return (
@@ -39,7 +39,7 @@ function App() {
           }
         />
         <Route path="/" element={<Main></Main>}></Route>
-        <Route path="/board" element={<Board></Board>}></Route>
+        <Route path="/parser" element={<MainParser></MainParser>}></Route>
       </Routes>
       <Footer></Footer>
     </div>

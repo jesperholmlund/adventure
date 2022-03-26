@@ -1,0 +1,83 @@
+#mainParser {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 1024px;
+  margin: auto;
+  background-color: #232f3e;
+}
+
+#cardList {
+  max-width: 1024px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  padding: 30px;
+  justify-content: center;
+}
+.cardParser {
+  border-radius: 5px !important;
+  font-size: 22px;
+  background-color: #f2f2f2;
+}
+
+.cardParser:hover {
+  opacity: 0.9;
+}
+
+.hide {
+  display: none;
+}
+
+.show {
+}
+
+input[type="file"] {
+  color: transparent;
+}
+
+#flashCards {
+  max-width: 800px;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+#mainTop {
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+  background-color: #ff9900;
+  padding: 30px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  input {
+    max-width: 400px;
+  }
+  .csv-reader-input {
+    max-width: 400px;
+  }
+}
+
+mark {
+  background-color: yellow;
+  padding: 0.1em;
+  width: fit-content;
+}
+
+@media screen and (max-width: 1024px) {
+  #mainParser {
+    flex-direction: column;
+    #mainTop {
+      margin-top: 0px;
+    }
+    #about-header {
+      justify-content: center;
+    }
+  }
+}

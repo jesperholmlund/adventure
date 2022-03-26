@@ -12,7 +12,7 @@ const ProjectsPage = () => {
     {
       name: "Kindle parser",
       gitHub: "link",
-      demo: "link",
+      demo: "parser",
     },
     {
       name: "Hockey app",
