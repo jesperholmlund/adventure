@@ -5,7 +5,8 @@
   justify-content: center;
   max-width: 1024px;
   margin: auto;
-  background-color: #232f3e;
+  // background-color: #232f3e;
+  // background-color: #ff9900;
 }
 
 #cardList {
@@ -13,8 +14,8 @@
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
-  padding: 30px;
-  justify-content: center;
+  padding-top: 30px;
+  justify-content: space-evenly;
 }
 .cardParser {
   border-radius: 5px !important;
@@ -23,7 +24,8 @@
 }
 
 .cardParser:hover {
-  opacity: 0.9;
+  background-color: #bdbcbc;
+  cursor: pointer;
 }
 
 .hide {
@@ -47,17 +49,16 @@ input[type="file"] {
 }
 
 #mainTop {
-  max-width: 100%;
+  width: 100%;
   display: flex;
   flex-direction: column;
   gap: 10px;
   align-items: flex-start;
-  background-color: #ff9900;
+  //background-color: #ff9900;
+  background-color: #f2f2f2;
   padding: 30px;
-  margin-top: 30px;
-  margin-bottom: 30px;
   input {
-    max-width: 400px;
+    width: 100%;
   }
   .csv-reader-input {
     max-width: 400px;

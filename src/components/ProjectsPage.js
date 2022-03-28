@@ -13,16 +13,7 @@ const ProjectsPage = () => {
       name: "Kindle parser",
       gitHub: "link",
       demo: "parser",
-    },
-    {
-      name: "Hockey app",
-      gitHub: "link",
-      demo: "link",
-    },
-    {
-      name: "React blog",
-      gitHub: "link",
-      demo: "link",
+      info: "HIghlights från kindle är i formatet csv. Att läsa en sån lista och leta etter något är tidskrävande och jobbigt. Detta projekt läser av csv-filen, skriver ut alla highlights i separata cards och därefter kan man söka efter keywords och filtrera bort cards som inte innehåller nyckelordet. Nyckelord markeras även i själva kortet",
     },
   ];
 
@@ -48,6 +39,7 @@ const ProjectsPage = () => {
           name={p.name}
           gitHub={p.gitHub}
           demo={p.demo}
+          info={p.info}
         ></Project>
       ))}
     </motion.div>

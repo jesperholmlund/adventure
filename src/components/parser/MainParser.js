@@ -53,7 +53,7 @@ const MainParser = () => {
   return (
     <div id="mainParser">
       <div id="mainTop" className="">
-        <h3>Highlight kindle</h3>
+        <h3>Highlights from kindle</h3>
         <CSVReader
           onFileLoaded={handleInput}
           parserOptions={options}
@@ -65,18 +65,44 @@ const MainParser = () => {
           type="text"
           onChange={handleChange}
         ></input>
-        <a
-          className={
-            "bg-dark card text-light card-body" +
-            (visibility === true ? " show" : " hide")
-          }
-          style={{ textDecoration: "none", background: "#232f3e" }}
+        <div
+          style={{ width: "100%" }}
+          className={" " + (visibility === true ? "  show" : " hide")}
         >
-          {book.name}
-        </a>
-        <a className={"card" + (visibility === true ? " hide" : " show")}>
+          <button
+            className={
+              "card text-dark card-body" +
+              (visibility === true ? "  show" : " hide")
+            }
+            style={{
+              textDecoration: "none",
+              width: "100%",
+              textAlign: "left",
+              background: "none",
+            }}
+          >
+            {book.name}
+          </button>
+          {/*<button className={"card" + (visibility === true ? "  show" : " hide")}>
           Loading...
-        </a>
+        </button>*/}
+          <div
+            style={{
+              display: "flex",
+              flexDirection: "row",
+              width: "100%",
+              background: "#232f3e",
+            }}
+            className={
+              "card card-body" + (visibility === true ? "  show" : " hide")
+            }
+          >
+            <button className="btn text-light">{cardStack.length} added</button>
+            <button className="btn btn-danger" onClick={cardStackInfo}>
+              Save
+            </button>
+          </div>
+        </div>
       </div>
       <div className={"" + (visibility === false ? " show" : " hide")}>
         <div id="flashCards">
@@ -86,14 +112,6 @@ const MainParser = () => {
         </div>
       </div>
       <div className={"" + (visibility === false ? " hide" : " show")}>
-        <div
-          style={{ display: "flex", flexDirection: "row", paddingTop: "20px" }}
-        >
-          <a className="btn text-light">{cardStack.length} added</a>
-          <a className="btn btn-danger" onClick={cardStackInfo}>
-            Show
-          </a>
-        </div>
         <div id="cardList">
           {searchList.map((list, i) => (
             <CardParser
