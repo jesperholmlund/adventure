@@ -40,12 +40,12 @@ input[type="file"] {
 }
 
 #flashCards {
-  max-width: 800px;
   height: auto;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   gap: 20px;
+  padding-top: 30px;
 }
 
 #mainTop {

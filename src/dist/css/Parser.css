@@ -49,7 +49,6 @@ input[type="file"] {
 }
 
 #flashCards {
-  max-width: 800px;
   height: auto;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -61,6 +60,7 @@ input[type="file"] {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   gap: 20px;
+  padding-top: 30px;
 }
 
 #mainTop {
