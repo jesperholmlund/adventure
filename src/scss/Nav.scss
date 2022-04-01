@@ -5,6 +5,9 @@ nav {
   //background-color: #ed7b64;
   margin: auto;
   padding-left: 50px;
+  #hamburger {
+    display: none;
+  }
   ul {
     color: #000;
     display: flex;
@@ -35,6 +38,9 @@ nav {
     justify-content: left;
     flex-direction: column;
     padding-left: 0px;
+    #hamburger {
+      display: block;
+    }
     ul {
       flex-direction: column;
       width: 100%;

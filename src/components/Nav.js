@@ -1,12 +1,23 @@
-import React from "react";
+import React, { useState } from "react";
 import "../dist/css/Nav.css";
 import { NavLink } from "react-router-dom";
+import { GiHamburgerMenu } from "react-icons/gi";
 
 const Nav = () => {
+  const [menu, setMenu] = useState(false);
+  const toggleMenu = () => {
+    setMenu(!menu);
+  };
   return (
     <nav>
       <div id="logo"></div>
-      <ul>
+      <div id="hamburger" className="card card-body">
+        <GiHamburgerMenu
+          style={{ fontSize: "40px" }}
+          onClick={toggleMenu}
+        ></GiHamburgerMenu>
+      </div>
+      <ul className={" " + (menu === true ? "  hide" : " show")}>
         <li>
           <NavLink
             to="/"

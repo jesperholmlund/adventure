@@ -9,6 +9,10 @@ nav {
   padding-left: 50px;
 }
 
+nav #hamburger {
+  display: none;
+}
+
 nav ul {
   color: #000;
   display: -webkit-box;
@@ -52,6 +56,9 @@ nav ul li a {
         -ms-flex-direction: column;
             flex-direction: column;
     padding-left: 0px;
+  }
+  nav #hamburger {
+    display: block;
   }
   nav ul {
     -webkit-box-orient: vertical;
